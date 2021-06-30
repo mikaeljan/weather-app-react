@@ -1,25 +1,25 @@
 ## Introduction
 
-Sample Weather App created using ReactJS + TS using [OpenWeather](https://openweathermap.org/api).
+Sample Weather App created using ReactJS + TS using [OpenWeather](https://openweathermap.org/api)
 
 The app supports following:
 
 - Show weather by current location (requires allowed use of location in your browser)
 
-- Toggling favorite city.
+- Toggling favorite city
 
-- Implement search by city name.
+- Implement search by city name
 
 ## Requirements
 
-You need to have node.js installed. If you do not, please visit [node.js](https://nodejs.org/en/) website before taking next steps.
+You need to have node.js installed. If you do not, please visit [node.js](https://nodejs.org/en/) website before taking next steps
 
 ## Setup & Startup
 
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/mikaeljan/weather-app-react-ts.git
+   git clone https://github.com/mikaeljan/weather-app-react.git
    ```
 
 2. Navigate to project directory
@@ -38,7 +38,8 @@ You need to have node.js installed. If you do not, please visit [node.js](https:
     REACT_APP_ICON_URL = 'https://openweathermap.org/img/w'
     ```
 
-6. Run the app in the development mode (open [http://localhost:3000](http://localhost:3000) to view it in the browser.)
+6. Run the app in the development mode (open [http://localhost:3000](http://localhost:3000) to view it in the browser)
+    
     `npm run start`
 
 ## Usage
@@ -75,4 +76,4 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Project Link: [https://github.com/mikaeljan/weather-app-react-ts](https://github.com/mikaeljan/weather-app-react-ts)
+Project Link: [https://github.com/mikaeljan/weather-app-react](https://github.com/mikaeljan/weather-app-react)
