@@ -1,0 +1,26 @@
+@import "./utils/variables";
+
+.App {
+	text-align: center;
+	background-image: url('./assets/bckground.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 1;
+	min-height: 100vh;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.App-header {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: $white;
+}
+.App-link {
+	color: #61dafb;
+}
+

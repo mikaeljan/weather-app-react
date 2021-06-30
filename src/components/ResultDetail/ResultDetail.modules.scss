@@ -1,0 +1,84 @@
+@import "../../utils/variables";
+
+.result {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    background-color: rgba($color: #fff, $alpha: 0.4);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    h2 {
+        color: white;
+        font-weight: 800;
+        text-align: center;
+    }
+    h4 {
+        color: white;
+    }
+}
+
+    .result-header {
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.result-header-title {
+    align-self: center;
+    flex:1
+    }
+
+.result-header-favorite {
+    display: flex;
+    size: 30;
+    font-size: 30px;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.result-header-temperature {
+    color: white;
+    font-weight: 800;
+    font-size: 38px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.result-body-main {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.result-body-sub {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+        @media (min-width: $mobileL) {
+            flex-basis: 50%;
+        }
+    }
+.result-body-sub-detail {
+    padding: 10px;
+    font-weight: 600;
+    @media(min-width: $laptop) {
+        padding: 20px 10px;
+    }
+}
